@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   gap: 10px;
 }
-.heading-1{
+.heading-1 {
   color: #7dd7f5;
   margin-bottom: 10px;
 }
@@ -66,11 +66,12 @@ body {
   /* background: rgb(255, 200, 0); */
   color: #ffff41;
   border: 1px solid #fff;
-  overflow-x:auto;
+  overflow-x: auto;
   display: flex;
   align-items: center;
   border-radius: 5px;
   padding: 10px;
+  /* display: inline-block; */
 }
 .answer-section .right {
   /* background: green; */
@@ -87,7 +88,7 @@ body {
   background: #cef76f;
   border-radius: 4px;
   height: 100%;
-  width:150px;
+  width: 150px;
 }
 .answer-section .right button:hover {
   background: #b4de52;
@@ -97,14 +98,16 @@ body {
 .detailed-answer {
   width: 100%;
   padding: 10px;
-  background: #ebaaaa;
-  background: linear-gradient(135deg,#6fb3f6,#c54a4a);
+  /* background: #c87304; */
+  /* background: linear-gradient(135deg,#6fb3f6,#c54a4a); */
   margin-top: 10px;
   height: 300px;
   overflow-y: auto;
   /* transition: 0.4s ease; */
   animation: go-visible 0.3s linear 1;
   border-radius: 5px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 @keyframes go-visible {
   0% {
@@ -118,7 +121,7 @@ body {
   width: 100%;
   height: 50px;
   overflow-x: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #cbbffc;
   margin-bottom: 10px;
   border-radius: 5px;
   display: flex;
@@ -126,12 +129,12 @@ body {
   padding-left: 10px;
   /* justify-content: cente; */
 }
-.description-section{
+.description-section {
   width: 100%;
   padding: 10px;
   /* background: yellow; */
   color: #fff;
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 5px;
   margin-top: 10px;
 }
