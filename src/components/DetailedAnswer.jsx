@@ -27,8 +27,13 @@ function DetailedAnswer({ num }) {
     return (
       <>
         <div className="detailed-answer">
-          <div className="single-line">
+          <div className="single-line invalid-input-instruction">
             <h3>Please Enter a Valid number</h3>
+            <h4>Input number should be:</h4>
+            <ul>
+              <li>An integer</li>
+              <li>Greater than or equal to 0</li>
+            </ul>
           </div>
         </div>
       </>
